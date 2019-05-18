@@ -1,0 +1,14 @@
+<%
+session.removeAttribute("Name");
+session.removeAttribute("customer_id");
+	session.removeAttribute("b_name");
+	session.removeAttribute("m_name");
+	session.removeAttribute("b_type");
+	session.removeAttribute("c_name");
+	session.removeAttribute("e_type");
+	session.removeAttribute("c_type");
+	session.removeAttribute("d_name");
+	session.removeAttribute("model_price");
+	session.removeAttribute("vin");
+	response.sendRedirect("index.jsp");
+%>
